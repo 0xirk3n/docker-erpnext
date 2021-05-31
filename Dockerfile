@@ -1,7 +1,7 @@
 FROM bizzotech/frappe:latest                                                         
 MAINTAINER Emad Shaaban <emad@bizzotech.com>                                                         
                                                          
-ENV ERPNEXT_BRANCH v10.0.0                                                         
+ENV ERPNEXT_BRANCH v13.0.0                                                         
                                                          
 USER $FRAPPE_USER                                                         
 WORKDIR /home/$FRAPPE_USER/frappe-bench                                                         
